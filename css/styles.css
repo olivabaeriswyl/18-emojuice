@@ -14,12 +14,13 @@ header {
   background-image: url(../img/peinture-legumes.png);
   background-size: 380px;
   border-top: #57bb6b solid 8px;
+  padding: 30px 30px 25px;
 }
 
 .introduction {
   background-color: #ffffffd6;
   padding: 18px 50px;
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
 header img {
@@ -40,8 +41,8 @@ header img {
   font-size: 20px;
   text-decoration: none;
   border-radius: 15px;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 .button-light {
