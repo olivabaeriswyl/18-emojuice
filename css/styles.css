@@ -2,9 +2,19 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family: 'Quattrocento', serif;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  background-image: url(../img/peinture-legumes.png);
+  border-top: #57bb6b solid 8px;
+}
+
+header div {
+  background-color: #ffffffd6;
 }
