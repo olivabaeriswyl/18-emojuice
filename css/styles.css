@@ -77,6 +77,7 @@ main p {
 
 .section-dark {
   background-color: #57bb6b;
+  padding: 30px 25px;
 }
 
 .title-dark {
@@ -84,10 +85,10 @@ main p {
 }
 
 .dark-container {
-  background-color: white;
   border-radius: 20px;
   padding: 20px 40px 30px;
-  margin: 0 25px 35px;
+  margin-bottom: 35px;
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.529);
 }
 
 .dark-flex-container {
@@ -131,4 +132,19 @@ h3 {
 
 .strawberry {
   background-color: #f7a4b4;
+}
+
+.title-green {
+  color: #57bb6b;
+}
+
+footer {
+  background-color: white;
+  padding: 5px 30px;
+}
+
+footer p {
+  color: #57bb6b;
+  font-size: 12px;
+  text-align: center;
 }
