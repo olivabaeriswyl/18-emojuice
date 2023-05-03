@@ -65,12 +65,70 @@ header img {
 h2 {
   font-family: 'Maven Pro', sans-serif;
   text-align: center;
+  font-size: 26px;
   margin-top: 0;
 }
 
 main p {
   font-size: 16px;
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
+.section-dark {
+  background-color: #57bb6b;
+}
 
+.title-dark {
+  color: white;
+}
+
+.dark-container {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 40px 30px;
+  margin: 0 25px 35px;
+}
+
+.dark-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.dark-container img {
+  width: 80px;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  margin: 0;
+}
+
+.section-dark p {
+  color: rgba(0, 0, 0, 0.504);
+}
+
+.section-dark a {
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.banana {
+  background-color: #fff8d7;
+}
+
+.kiwi {
+  background-color: #c4f2ad;
+}
+
+.coffee {
+  background-color: #d3c6b2;
+}
+
+.strawberry {
+  background-color: #f7a4b4;
+}
