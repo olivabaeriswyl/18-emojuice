@@ -140,11 +140,22 @@ h3 {
 
 footer {
   background-color: white;
-  padding: 5px 30px;
+  padding: 5px 65px 60px;
 }
 
 footer p {
   color: #57bb6b;
   font-size: 12px;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.container-fruits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img, .section-light img {
+  width: 26px;
 }
