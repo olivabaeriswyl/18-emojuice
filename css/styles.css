@@ -18,7 +18,7 @@ header {
 }
 
 .introduction {
-  background-color: #ffffffd6;
+  background-color: #ffffffdf;
   padding: 18px 50px;
   margin-bottom: 30px;
 }
@@ -88,7 +88,7 @@ main p {
   border-radius: 20px;
   padding: 20px 40px 30px;
   margin-bottom: 35px;
-  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.529);
+  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.437);
 }
 
 .dark-flex-container {
