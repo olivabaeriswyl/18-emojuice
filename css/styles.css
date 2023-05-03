@@ -18,3 +18,9 @@ header {
 header div {
   background-color: #ffffffd6;
 }
+
+a {
+  background-color: #57bb6b;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+}
