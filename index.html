@@ -6,19 +6,21 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&family=Quattrocento:wght@400;700&family=Sriracha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Quattrocento:wght@400;700&family=Sriracha&display=swap" rel="stylesheet">
     <title>Emojuice</title>
   </head>
 
   <body>
     <header>
-      <div>
+      <div class="introduction">
         <h1><img src="img/emojuice-logo.svg" alt="Emojuice"></h1>
         <p class="slogan">Boisson végétales préparées avec amour</p>
       </div>
       <nav>
-        <a href="#produits">Accédez à nos produits</a>
-        <a href="#contact" class="light">Nous contacter</a>
+        <div class="cta-container">
+          <a href="#produits" class="button">Accédez à nos produits</a>
+          <a href="#contact" class="button button-light">Nous contacter</a>
+        </div>
       </nav>
     </header>
     <main>
@@ -59,16 +61,18 @@
         </div>
       </div>
       <div>
-        <h2 id="contact">Nous contacter</h2>
-        <a href="https://www.wwf.ch/fr/guide-fruits-et-legumes" target="_blank">
-          emojuice@veggies.ch
-        </a>
-        <a href="https://www.wwf.ch/fr/guide-fruits-et-legumes" target="_blank">
-          Instagram
-        </a>
-        <a href="https://www.wwf.ch/fr/guide-fruits-et-legumes" target="_blank">
-          Facebook
-        </a>
+        <div class="cta-container">
+          <h2 id="contact">Nous contacter</h2>
+          <a href="https://www.wwf.ch/fr/guide-fruits-et-legumes" target="_blank" class="button">
+            emojuice@veggies.ch
+          </a>
+          <a href="https://www.wwf.ch/fr/guide-fruits-et-legumes" target="_blank" class="button">
+            Instagram
+          </a>
+          <a href="https://www.wwf.ch/fr/guide-fruits-et-legumes" target="_blank" class="button">
+            Facebook
+          </a>
+        </div>
       </div>
     </main>
     <footer>
